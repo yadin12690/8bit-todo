@@ -13,6 +13,7 @@ export default function Dashboard() {
                 <h1 className={`${dotGothic16.className} text-white h-fit font-bold text-8xl text-center uppercase`}>Tasks dashboard</h1>
             </div>
             <AddNewTaskButton />
+            <NewTask></NewTask>
         </>
     )
 }
