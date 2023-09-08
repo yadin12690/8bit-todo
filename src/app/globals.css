@@ -81,8 +81,6 @@ body {
 .pixel-text-area {
   margin: 0 auto;
   display: inline-block;
-  text-align: center;
-  padding: 4em 2em;
 }
 
 .lvl2 {
