@@ -14,8 +14,11 @@ export default function Home() {
             <h1 className={`${dotGothic16.className} text-white h-fit font-bold text-8xl text-center uppercase`}>Tasks dashboard</h1>
             <div className="card-container flex justify-end">
                 <Image src={cardContent} alt="lofi-todo" width={500} height={500} />
-                <div className="container">
-                    <button className={`${press_start_2P.className} addNewTaskBtn text-black`}>Add new task</button>
+                <div className="content-container flex justify-center items-center flex-col relative gap-20 top-40 right-[28rem] h-fit">
+                    <div className={`${press_start_2P.className} pixel-text-area lvl2`}>Enter you task content</div>
+                    <div className="button-container">
+                        <button className={`${press_start_2P.className} addNewTaskBtn text-black`}>Add new task</button>
+                    </div>
                 </div>
             </div>
         </div>
